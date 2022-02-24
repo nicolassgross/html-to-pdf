@@ -1,6 +1,17 @@
 <?php
 require 'vendor/autoload.php';
 
+$dir = 'drivers/';
+
+$directory_iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($dir));
+
+foreach($directory_iterator as $filename => $path_object)
+{
+    if (strpos($filename, '.php')) {
+        require $filename;
+    }
+}
+
 use Monolog\Logger;
 use PHPExiftool\Reader;
 
