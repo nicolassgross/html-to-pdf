@@ -10,7 +10,9 @@
             <li><img src="sucesso.png" /> Consigo criar os metadados padrões (creator, author, title, subject, keywords) e também com itens adicionais, usando XMP</li>
             <li><img src="erro.png" /> Não consigo ler (depois de gerado o PDF)</li>
         </ul>
-        <img src="caso1.png" />
+
+        <small>Exif Viewer - arquivo gerado pela POC com XMP</small>
+        <img src="caso1.png" width="400" border="1" />
     </td>
     <td width="50%" valign="top">
         <h3>Caso 2</h3>
@@ -19,7 +21,14 @@
             <li><img src="sucesso.png" /> Consigo ler esses metadados</li>
         </ul>
 
-        <img src="caso2.png" />
+        <small>Campos personalizados - visto via Adobe Reader</small>
+        <img src="caso2-b.png" width="400" border="1" />
+
+        <br />
+        <br />
+
+        <small>Exif Viewer - arquivo com itens personalizados</small>
+        <img src="caso2.png" width="400" border="1" />
     </td>
 </tr>
 </table>
