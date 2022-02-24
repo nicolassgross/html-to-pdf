@@ -1,5 +1,10 @@
 {
     "name": "root/html",
+    "autoload": {
+        "psr-0": {
+            "PHPExiftool\\": "drivers/"
+        }
+    },
     "require": {
         "smalot/pdfparser": "^2.1",
         "tecnickcom/tcpdf": "^6.4",
