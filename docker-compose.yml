@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  app:
+    image: uni/apache-php:7.4
+    ports:
+      - 8088:80
+    volumes:
+      - ./:/var/www/html/
