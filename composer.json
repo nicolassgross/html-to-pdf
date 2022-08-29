@@ -1,8 +1,6 @@
 {
     "name": "root/html",
     "require": {
-        "smalot/pdfparser": "^2.1",
-        "tecnickcom/tcpdf": "^6.4",
-        "alchemy/phpexiftool": "^4.1"
+        "tecnickcom/tcpdf": "^6.4"
     }
 }
